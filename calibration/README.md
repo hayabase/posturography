@@ -57,8 +57,9 @@
 | --- | --- | --- | --- |
 | `../ad7193_wired/ad7193_wired.ino` | USB シリアル | 推奨、対応済み | 校正ではこのファイルを基本にする |
 | `../ad7193_wireless/ad7193_wireless.ino` | USB シリアル + Bluetooth Classic SPP | USB 接続なら対応。Bluetooth は OS が SPP をシリアルポートとして認識すれば使用可能 | Bluetooth は簡易確認向け。安定した校正は USB 推奨 |
+| `../BLE_ad7193/BLE_ad7193.ino` | USB シリアル + BLE Notify | BLE 入力は非対応。USB シリアル出力なら既存方式で確認可能 | BLE は `../BLE_ad7193/ble_receive.py` で受信する。校正本番は USB 推奨 |
 
-どちらもデータ行の形式は同じです。
+USB シリアルと Bluetooth Classic SPP のデータ行の形式は同じです。
 
 ```text
 ch1,ch2,ch3,ch4
@@ -74,6 +75,8 @@ ch1,ch2,ch3,ch4
 `calibration.py` は `4 つの整数がカンマ区切りになっている行` だけをデータとして採用し、それ以外の行は無視します。
 
 今後 Arduino ファイルを追加した場合は、この表に通信方式、対応する Python スクリプト、出力形式を追記してください。出力形式が変わる場合は `calibration.py` 側の読み取り処理も確認が必要です。
+
+BLE 版は Notify payload を 20 byte に収めるため、BLE 通知だけは `sample_index,DAT1,DAT2,DAT3,DAT4` 相当の little-endian `uint32` x 5 のバイナリフレームで送信します。`calibration.py` は BLE を直接受信しないため、BLE で確認する場合は `../BLE_ad7193/ble_receive.py` を使ってください。
 
 ## シリアルデータの受信確認
 
