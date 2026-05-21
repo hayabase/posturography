@@ -5,17 +5,26 @@ ESP32 と 4 個の AD7193 から、重心動揺計の 4 チャンネル生デー
 
 ## 目次
 
-- [構成](#構成)
-- [装置側コード](#装置側コード)
-- [Arduino ファイルと通信方式](#arduino-ファイルと通信方式)
-- [データ受信方法](#データ受信方法)
-- [Python 環境](#python-環境)
-- [サンプリング確認](#サンプリング確認)
-- [校正手順](#校正手順)
-- [校正スクリプトの出力](#校正スクリプトの出力)
-- [校正後の確認](#校正後の確認)
-- [重心位置計算について](#重心位置計算について)
-- [トラブルシュート](#トラブルシュート)
+- [Posturography](#posturography)
+  - [目次](#目次)
+  - [構成](#構成)
+  - [装置側コード](#装置側コード)
+  - [Arduino ファイルと通信方式](#arduino-ファイルと通信方式)
+  - [データ受信方法](#データ受信方法)
+    - [VS Code で見る](#vs-code-で見る)
+    - [Arduino IDE で見る](#arduino-ide-で見る)
+    - [Python で見る](#python-で見る)
+    - [Bluetooth で見る](#bluetooth-で見る)
+  - [Python 環境](#python-環境)
+  - [サンプリング確認](#サンプリング確認)
+  - [校正手順](#校正手順)
+  - [校正スクリプトの出力](#校正スクリプトの出力)
+  - [校正後の確認](#校正後の確認)
+  - [重心位置計算について](#重心位置計算について)
+  - [トラブルシュート](#トラブルシュート)
+    - [COM ポートが表示されない](#com-ポートが表示されない)
+    - [データが取得できない](#データが取得できない)
+    - [校正結果が不安定](#校正結果が不安定)
 
 ## 構成
 
@@ -62,10 +71,10 @@ Bluetooth で受信したい場合は `ad7193_wireless/ad7193_wireless.ino` を 
 | Arduino ファイル | 通信方式 | 校正での使用 | `sampling_test.py` | `calibration.py` | 手動確認 |
 | --- | --- | --- | --- | --- | --- |
 | `ad7193_wired/ad7193_wired.ino` | USB シリアル | 推奨 | 対応 | 対応 | Arduino IDE / VS Code のシリアルモニターで確認可能 |
-| `ad7193_wireless/ad7193_wireless.ino` | USB シリアル + Bluetooth Classic SPP | USB 接続なら使用可能。Bluetooth は簡易確認向け | 対応 | OS が Bluetooth SPP をシリアルポートとして認識すれば使用可能 | Arduino IDE / VS Code / Bluetooth SPP 対応アプリで確認可能 |
+| `ad7193_wireless/ad7193_wireless.ino` | USB シリアル + Bluetooth Classic SPP | USB 接続なら使用可能。Bluetooth は確認向け | 対応 | OS が Bluetooth SPP をシリアルポートとして認識すれば使用可能 | Arduino IDE / VS Code / Bluetooth SPP 対応アプリで確認可能 |
 
 校正では通信の安定性を優先するため、基本は `ad7193_wired/ad7193_wired.ino` を ESP32 に書き込み、USB シリアルで取得してください。  
-`ad7193_wireless/ad7193_wireless.ino` は Bluetooth 受信の確認や、ケーブルを使わない簡易確認に使えます。
+`ad7193_wireless/ad7193_wireless.ino` は Bluetooth 受信の確認や、ケーブルを使わない確認に使えます。
 
 どちらの Arduino ファイルも、受信データの基本形式は同じです。
 
