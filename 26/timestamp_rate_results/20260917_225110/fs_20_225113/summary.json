@@ -1,0 +1,110 @@
+{
+  "fs": 20,
+  "nominal_hz": 240.0,
+  "requested_s": 30.0,
+  "observed_s": 30.32665391599585,
+  "frames": 6146,
+  "passed": false,
+  "failure_reasons": [
+    "host rate outside nominal +/-2%",
+    "device frame rate outside nominal +/-2%",
+    "UART whole-frame drops",
+    "device frame gap >2.5 nominal periods"
+  ],
+  "host_hz": 202.73260467672497,
+  "device_frame_hz": 202.74475624430812,
+  "adc_read_hz": [
+    241.30416477339003,
+    241.1393170040408,
+    241.93058629691708,
+    242.06246451239645
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 1168,
+  "device_sent_delta": 6146,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 20,
+    "t_us": 79828804,
+    "frames": 725,
+    "sent": 674,
+    "tx_drop": 51,
+    "stat_skip": 0,
+    "reads": [
+      725,
+      725,
+      727,
+      727
+    ],
+    "superseded": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 377
+  },
+  "final_stats": {
+    "fs": 20,
+    "t_us": 110159818,
+    "frames": 8039,
+    "sent": 6820,
+    "tx_drop": 1219,
+    "stat_skip": 0,
+    "reads": [
+      8044,
+      8039,
+      8065,
+      8069
+    ],
+    "superseded": [
+      4,
+      0,
+      26,
+      29
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 411
+  },
+  "superseded_measurement": [
+    4,
+    0,
+    24,
+    27
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 4.062,
+    "p50": 4.232,
+    "p99": 8.321,
+    "max": 20.802
+  },
+  "host_interval_ms": {
+    "p50": 5.342458,
+    "p99": 5.736871999999999,
+    "max": 61.979875
+  },
+  "line_bytes": {
+    "min": 57,
+    "max": 57,
+    "mean": 57
+  },
+  "device_time_us_first": 79849172,
+  "device_time_us_last": 110156676,
+  "baud": 115200,
+  "config": "#CONFIG fs=20 nominal_hz=240.000000 baud=115200 init_mask=15 wide=1 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_225110/fs_20_225113"
+}

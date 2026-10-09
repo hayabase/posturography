@@ -1,0 +1,105 @@
+{
+  "fs": 25,
+  "nominal_hz": 192.0,
+  "requested_s": 60.0,
+  "observed_s": 60.02639441700012,
+  "frames": 11579,
+  "passed": true,
+  "failure_reasons": [],
+  "host_hz": 192.91471384871187,
+  "device_frame_hz": 192.92206275805137,
+  "adc_read_hz": [
+    193.05930874603823,
+    192.9260150142726,
+    193.5424985236886,
+    193.62580710604212
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "device_sent_delta": 11579,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 25,
+    "t_us": 680303226,
+    "frames": 580,
+    "sent": 580,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      580,
+      580,
+      582,
+      582
+    ],
+    "superseded": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 331
+  },
+  "final_stats": {
+    "fs": 25,
+    "t_us": 740321052,
+    "frames": 12159,
+    "sent": 12159,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      12167,
+      12159,
+      12198,
+      12203
+    ],
+    "superseded": [
+      8,
+      0,
+      39,
+      44
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 416
+  },
+  "superseded_measurement": [
+    8,
+    0,
+    38,
+    42
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 5.048,
+    "p50": 5.147,
+    "p99": 5.305,
+    "max": 5.397
+  },
+  "host_interval_ms": {
+    "p50": 5.5948335,
+    "p99": 6.267533179999997,
+    "max": 28.022459
+  },
+  "line_bytes": {
+    "min": 57,
+    "max": 57,
+    "mean": 57
+  },
+  "device_time_us_first": 680306453,
+  "device_time_us_last": 740320399,
+  "baud": 115200,
+  "config": "#CONFIG fs=25 nominal_hz=192.000000 baud=115200 init_mask=15 wide=1 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_230110/fs_25_230113"
+}

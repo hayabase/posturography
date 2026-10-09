@@ -1,0 +1,105 @@
+{
+  "fs": 24,
+  "nominal_hz": 200.0,
+  "requested_s": 30.0,
+  "observed_s": 30.02170145799755,
+  "frames": 6033,
+  "passed": true,
+  "failure_reasons": [],
+  "host_hz": 200.95761966552283,
+  "device_frame_hz": 200.9645105585207,
+  "adc_read_hz": [
+    201.10129022617082,
+    200.96804438205874,
+    201.60096214159114,
+    201.70089652467522
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "device_sent_delta": 6033,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 24,
+    "t_us": 8074996,
+    "frames": 604,
+    "sent": 604,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      604,
+      604,
+      606,
+      606
+    ],
+    "superseded": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 371
+  },
+  "final_stats": {
+    "fs": 24,
+    "t_us": 38094694,
+    "frames": 6637,
+    "sent": 6637,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      6641,
+      6637,
+      6658,
+      6661
+    ],
+    "superseded": [
+      4,
+      0,
+      20,
+      23
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 481
+  },
+  "superseded_measurement": [
+    4,
+    0,
+    19,
+    21
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 4.846,
+    "p50": 5.0,
+    "p99": 5.048139999999997,
+    "max": 5.108
+  },
+  "host_interval_ms": {
+    "p50": 6.527542,
+    "p99": 8.014798229999998,
+    "max": 50.666583
+  },
+  "line_bytes": {
+    "min": 43,
+    "max": 44,
+    "mean": 43.93585280954749
+  },
+  "device_time_us_first": 8076917,
+  "device_time_us_last": 38091953,
+  "baud": 115200,
+  "config": "#CONFIG fs=24 nominal_hz=200.000000 baud=115200 init_mask=15 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_152914/fs_24_152917"
+}

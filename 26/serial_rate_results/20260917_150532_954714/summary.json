@@ -1,0 +1,241 @@
+{
+  "completed": true,
+  "error": null,
+  "interrupted": false,
+  "elapsed_s": 300.000457333,
+  "frames": 96614,
+  "frames_per_observed_second": 322.0461757255211,
+  "endpoint_hz": 322.04806292259747,
+  "regression_hz": 322.04896335957056,
+  "deviation_from_expected_percent": 222.0489633595706,
+  "invalid_lines": 0,
+  "comment_lines": 0,
+  "bytes_received": 3478138,
+  "serial_8n1_capacity_fraction": 1.0064041370902188,
+  "read_batches": 56000,
+  "multiple_frame_batches": 40453,
+  "interval_ms": {
+    "mean": 3.1051265793216234,
+    "stdev": 2.6797889343276684,
+    "min": 0.0,
+    "p50": 5.218750000011596,
+    "p95": 5.526459000009254,
+    "p99": 5.693818120009838,
+    "max": 77.86204199999958
+  },
+  "stall_threshold_ms": 100,
+  "interframe_gaps_above_threshold": 0,
+  "max_silence_including_start_end_ms": 77.86204199999958,
+  "continuous_delivery_check_passed": true,
+  "windows_10s": [
+    {
+      "start_s": 0,
+      "end_s": 10,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 10,
+      "end_s": 20,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 20,
+      "end_s": 30,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 30,
+      "end_s": 40,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 40,
+      "end_s": 50,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 50,
+      "end_s": 60,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 60,
+      "end_s": 70,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 70,
+      "end_s": 80,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 80,
+      "end_s": 90,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 90,
+      "end_s": 100,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 100,
+      "end_s": 110,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 110,
+      "end_s": 120,
+      "frames": 3218,
+      "hz": 321.8
+    },
+    {
+      "start_s": 120,
+      "end_s": 130,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 130,
+      "end_s": 140,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 140,
+      "end_s": 150,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 150,
+      "end_s": 160,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 160,
+      "end_s": 170,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 170,
+      "end_s": 180,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 180,
+      "end_s": 190,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 190,
+      "end_s": 200,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 200,
+      "end_s": 210,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 210,
+      "end_s": 220,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 220,
+      "end_s": 230,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 230,
+      "end_s": 240,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 240,
+      "end_s": 250,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 250,
+      "end_s": 260,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 260,
+      "end_s": 270,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 270,
+      "end_s": 280,
+      "frames": 3220,
+      "hz": 322.0
+    },
+    {
+      "start_s": 280,
+      "end_s": 290,
+      "frames": 3221,
+      "hz": 322.1
+    },
+    {
+      "start_s": 290,
+      "end_s": 300,
+      "frames": 3220,
+      "hz": 322.0
+    }
+  ],
+  "channel_ranges": [
+    {
+      "channel": 1,
+      "min": 16737514,
+      "max": 16737588
+    },
+    {
+      "channel": 2,
+      "min": 6354032,
+      "max": 6448194
+    },
+    {
+      "channel": 3,
+      "min": 10574188,
+      "max": 10601700
+    },
+    {
+      "channel": 4,
+      "min": 10794334,
+      "max": 10855422
+    }
+  ],
+  "limitations": [
+    "Host receive timestamps include USB buffering and OS scheduling.",
+    "Nanosecond clock resolution is not nanosecond measurement accuracy; host clock is not externally calibrated.",
+    "CSV has no sequence numbers or device timestamps: exact sample loss, ADC jitter and per-ADC conversion rate cannot be established.",
+    "A 4ch CSV frame is emitted only when all four ADCs have fresh data; it is not proof of simultaneous conversion.",
+    "One initial line is deliberately discarded to synchronize after warmup."
+  ]
+}

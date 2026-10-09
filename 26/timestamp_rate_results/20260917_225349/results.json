@@ -1,0 +1,109 @@
+[
+  {
+    "fs": 24,
+    "nominal_hz": 200.0,
+    "requested_s": 60.0,
+    "observed_s": 60.02164962499228,
+    "frames": 12062,
+    "passed": false,
+    "failure_reasons": [
+      "host gap >100 ms"
+    ],
+    "host_hz": 200.9555677552953,
+    "device_frame_hz": 200.9631764788987,
+    "adc_read_hz": [
+      201.0883628581697,
+      200.95508142462657,
+      201.60482841314925,
+      201.72144966749948
+    ],
+    "invalid_lines": 0,
+    "unexpected_metadata": [],
+    "tx_drop_measurement": 0,
+    "device_sent_delta": 12062,
+    "received_minus_sent": 0,
+    "initial_stats": {
+      "fs": 24,
+      "t_us": 238854898,
+      "frames": 601,
+      "sent": 601,
+      "tx_drop": 0,
+      "stat_skip": 0,
+      "reads": [
+        601,
+        601,
+        603,
+        603
+      ],
+      "superseded": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "adc_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_loop_gap_us": 379
+    },
+    "final_stats": {
+      "fs": 24,
+      "t_us": 298878262,
+      "frames": 12663,
+      "sent": 12663,
+      "tx_drop": 0,
+      "stat_skip": 0,
+      "reads": [
+        12671,
+        12663,
+        12704,
+        12711
+      ],
+      "superseded": [
+        7,
+        0,
+        41,
+        47
+      ],
+      "adc_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_loop_gap_us": 423
+    },
+    "superseded_measurement": [
+      7,
+      0,
+      39,
+      45
+    ],
+    "identical_frames": 0,
+    "identical_fraction": 0.0,
+    "device_interval_ms": {
+      "min": 4.734,
+      "p50": 5.0,
+      "p99": 5.07,
+      "max": 5.153
+    },
+    "host_interval_ms": {
+      "p50": 5.379625,
+      "p99": 6.9559745999999985,
+      "max": 129.908875
+    },
+    "line_bytes": {
+      "min": 57,
+      "max": 57,
+      "mean": 57
+    },
+    "device_time_us_first": 238859343,
+    "device_time_us_last": 298875222,
+    "baud": 115200,
+    "config": "#CONFIG fs=24 nominal_hz=200.000000 baud=115200 init_mask=15 wide=1 columns=timestamp_us,raw1,raw2,raw3,raw4",
+    "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_225349/fs_24_225352"
+  }
+]

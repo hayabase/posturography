@@ -1,0 +1,10 @@
+{
+  "port": "/dev/cu.usbserial-D30AKO0H",
+  "baud": 115200,
+  "fs": [
+    11
+  ],
+  "seconds": 60.0,
+  "warmup": 3,
+  "criteria": "rate +/-2%, zero UART loss/CRC/ADC errors, device interval <=2.5 periods, host gap <=100ms"
+}

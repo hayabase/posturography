@@ -1,0 +1,103 @@
+{
+  "fs": 24,
+  "nominal_hz": 200.0,
+  "requested_s": 30.0,
+  "observed_s": 30.02266283299832,
+  "frames": 6033,
+  "passed": true,
+  "failure_reasons": [],
+  "host_hz": 200.9563691484194,
+  "device_frame_hz": 200.96475119508918,
+  "adc_read_hz": [
+    201.10413733204,
+    200.97088960149037,
+    201.60381632160113,
+    201.67044018687596
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "initial_stats": {
+    "fs": 24,
+    "t_us": 205507855,
+    "frames": 601,
+    "sent": 601,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      602,
+      601,
+      603,
+      604
+    ],
+    "superseded": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 349
+  },
+  "final_stats": {
+    "fs": 24,
+    "t_us": 235527128,
+    "frames": 6634,
+    "sent": 6634,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      6639,
+      6634,
+      6655,
+      6658
+    ],
+    "superseded": [
+      4,
+      0,
+      20,
+      24
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 567
+  },
+  "superseded_measurement": [
+    4,
+    0,
+    19,
+    22
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 4.717,
+    "p50": 5.02,
+    "p99": 5.04,
+    "max": 5.091
+  },
+  "host_interval_ms": {
+    "p50": 6.4319375,
+    "p99": 7.767242479999999,
+    "max": 21.434208
+  },
+  "line_bytes": {
+    "min": 45,
+    "max": 45,
+    "mean": 45
+  },
+  "device_time_us_first": 205508201,
+  "device_time_us_last": 235523068,
+  "baud": 115200,
+  "config": "#CONFIG fs=24 nominal_hz=200.000000 baud=115200 init_mask=15 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_152308/fs_24_152450"
+}

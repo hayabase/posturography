@@ -1,0 +1,16 @@
+{
+  "port": "/dev/cu.usbserial-D30AKO0H",
+  "baud": 115200,
+  "requested_duration_s": 300.0,
+  "warmup_s": 3,
+  "expected_hz": 100,
+  "python": "/Users/gyobu/.pyenv/versions/3.10.9/bin/python",
+  "started_utc": "2026-09-17T06:03:53.165442+00:00",
+  "clock": {
+    "implementation": "mach_absolute_time()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 4.166666666666667e-08
+  },
+  "timestamp_method": "perf_counter_ns immediately after os.read; lines in same read share timestamp"
+}

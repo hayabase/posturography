@@ -1,0 +1,108 @@
+{
+  "fs": 16,
+  "nominal_hz": 300.0,
+  "requested_s": 30.0,
+  "observed_s": 30.23616212500201,
+  "frames": 7760,
+  "passed": false,
+  "failure_reasons": [
+    "host rate outside nominal +/-2%",
+    "device frame rate outside nominal +/-2%",
+    "ADC read rate outside nominal +/-2%",
+    "device frame gap >2.5 nominal periods"
+  ],
+  "host_hz": 256.7937466788749,
+  "device_frame_hz": 256.8028414186787,
+  "adc_read_hz": [
+    257.3178548324402,
+    257.1193836756084,
+    257.1193836756084,
+    257.18554072788567
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "initial_stats": {
+    "fs": 16,
+    "t_us": 271713472,
+    "frames": 829,
+    "sent": 829,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      830,
+      831,
+      830,
+      830
+    ],
+    "superseded": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 10185
+  },
+  "final_stats": {
+    "fs": 16,
+    "t_us": 301944565,
+    "frames": 8589,
+    "sent": 8589,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      8609,
+      8604,
+      8603,
+      8605
+    ],
+    "superseded": [
+      20,
+      14,
+      14,
+      16
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 18816
+  },
+  "superseded_measurement": [
+    19,
+    12,
+    13,
+    15
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 0.572,
+    "p50": 3.288,
+    "p99": 8.61884,
+    "max": 18.931
+  },
+  "host_interval_ms": {
+    "p50": 5.302958,
+    "p99": 5.5744905000000005,
+    "max": 21.639167
+  },
+  "line_bytes": {
+    "min": 45,
+    "max": 45,
+    "mean": 45
+  },
+  "device_time_us_first": 271723861,
+  "device_time_us_last": 301943140,
+  "baud": 115200,
+  "config": "#CONFIG fs=16 nominal_hz=300.000000 baud=115200 init_mask=15 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_152308/fs_16_152556"
+}

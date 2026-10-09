@@ -1,0 +1,105 @@
+{
+  "fs": 19,
+  "nominal_hz": 252.6315789473684,
+  "requested_s": 300.0,
+  "observed_s": 300.02608358299767,
+  "frames": 76156,
+  "passed": true,
+  "failure_reasons": [],
+  "host_hz": 253.8337966745555,
+  "device_frame_hz": 253.84438933312026,
+  "adc_read_hz": [
+    254.01889792203852,
+    253.84556988965417,
+    254.64221219234375,
+    254.72554297714393
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "device_sent_delta": 76156,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 19,
+    "t_us": 1325685176,
+    "frames": 764,
+    "sent": 764,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      765,
+      764,
+      766,
+      767
+    ],
+    "superseded": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 330
+  },
+  "final_stats": {
+    "fs": 19,
+    "t_us": 1625694351,
+    "frames": 76920,
+    "sent": 76920,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      76973,
+      76920,
+      77161,
+      77187
+    ],
+    "superseded": [
+      53,
+      0,
+      241,
+      266
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 472
+  },
+  "superseded_measurement": [
+    53,
+    0,
+    239,
+    264
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 3.787,
+    "p50": 3.999,
+    "p99": 4.068,
+    "max": 4.136
+  },
+  "host_interval_ms": {
+    "p50": 5.351208,
+    "p99": 5.70789386,
+    "max": 33.137291
+  },
+  "line_bytes": {
+    "min": 45,
+    "max": 45,
+    "mean": 45
+  },
+  "device_time_us_first": 1325687201,
+  "device_time_us_last": 1625693366,
+  "baud": 115200,
+  "config": "#CONFIG fs=19 nominal_hz=252.631579 baud=115200 init_mask=15 wide=0 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_231156/fs_19_231159"
+}

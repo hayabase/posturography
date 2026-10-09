@@ -1,0 +1,108 @@
+{
+  "fs": 18,
+  "nominal_hz": 266.6666666666667,
+  "requested_s": 20.0,
+  "observed_s": 20.331972041996778,
+  "frames": 5348,
+  "passed": false,
+  "failure_reasons": [
+    "UART whole-frame drops",
+    "device frame gap >2.5 nominal periods"
+  ],
+  "host_hz": 262.8076318221319,
+  "device_frame_hz": 267.54688008829794,
+  "adc_read_hz": [
+    268.0976127026327,
+    267.9477816970239,
+    268.79682406214033,
+    268.89671139921285
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 17,
+  "device_sent_delta": 5348,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 18,
+    "t_us": 8064055,
+    "frames": 806,
+    "sent": 806,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      806,
+      806,
+      808,
+      809
+    ],
+    "superseded": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 375
+  },
+  "final_stats": {
+    "fs": 18,
+    "t_us": 28086613,
+    "frames": 6171,
+    "sent": 6154,
+    "tx_drop": 17,
+    "stat_skip": 0,
+    "reads": [
+      6174,
+      6171,
+      6190,
+      6193
+    ],
+    "superseded": [
+      2,
+      0,
+      19,
+      22
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 485
+  },
+  "superseded_measurement": [
+    2,
+    0,
+    17,
+    20
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 3.568,
+    "p50": 3.74,
+    "p99": 3.81824,
+    "max": 18.621
+  },
+  "host_interval_ms": {
+    "p50": 5.290583,
+    "p99": 5.63488232,
+    "max": 29.880583
+  },
+  "line_bytes": {
+    "min": 43,
+    "max": 44,
+    "mean": 43.902954375467466
+  },
+  "device_time_us_first": 8066464,
+  "device_time_us_last": 28083693,
+  "baud": 115200,
+  "config": "#CONFIG fs=18 nominal_hz=266.666667 baud=115200 init_mask=15 wide=0 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_153816/fs_18_153819"
+}

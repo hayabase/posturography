@@ -1,0 +1,14 @@
+{
+  "fs": [
+    24,
+    20,
+    19,
+    18,
+    16
+  ],
+  "seconds": 30.0,
+  "warmup": 3,
+  "baud": 115200,
+  "port": "/dev/cu.usbserial-D30AKO0H",
+  "criteria": "rate +/-2%, zero TX drops/stat skips/ADC errors/invalid lines; device gap <=2.5 periods; host gap <=100ms"
+}

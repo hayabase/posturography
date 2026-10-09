@@ -1,0 +1,39 @@
+{
+  "completed": false,
+  "error": "[Errno 16] could not open port /dev/cu.usbserial-D30AKO0H: [Errno 16] Resource busy: '/dev/cu.usbserial-D30AKO0H'",
+  "interrupted": false,
+  "elapsed_s": 0,
+  "frames": 0,
+  "frames_per_observed_second": null,
+  "endpoint_hz": null,
+  "regression_hz": null,
+  "deviation_from_expected_percent": null,
+  "invalid_lines": 0,
+  "comment_lines": 0,
+  "bytes_received": 0,
+  "serial_8n1_capacity_fraction": null,
+  "read_batches": 0,
+  "multiple_frame_batches": 0,
+  "interval_ms": {
+    "mean": null,
+    "stdev": null,
+    "min": null,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "max": null
+  },
+  "stall_threshold_ms": 100,
+  "interframe_gaps_above_threshold": 0,
+  "max_silence_including_start_end_ms": 0,
+  "continuous_delivery_check_passed": false,
+  "windows_10s": [],
+  "channel_ranges": [],
+  "limitations": [
+    "Host receive timestamps include USB buffering and OS scheduling.",
+    "Nanosecond clock resolution is not nanosecond measurement accuracy; host clock is not externally calibrated.",
+    "CSV has no sequence numbers or device timestamps: exact sample loss, ADC jitter and per-ADC conversion rate cannot be established.",
+    "A 4ch CSV frame is emitted only when all four ADCs have fresh data; it is not proof of simultaneous conversion.",
+    "One initial line is deliberately discarded to synchronize after warmup."
+  ]
+}

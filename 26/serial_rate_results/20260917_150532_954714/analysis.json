@@ -1,0 +1,37 @@
+{
+  "consecutive_identical_frames": 58370,
+  "consecutive_identical_percent": 60.41630008383965,
+  "changed_value_counts": [
+    25032,
+    29734,
+    29753,
+    29807
+  ],
+  "changed_value_hz": [
+    83.44122541561136,
+    99.1147889304805,
+    99.17812319393914,
+    99.35812583745316
+  ],
+  "identical_run_lengths": {
+    "1": 8181,
+    "2": 7050,
+    "3": 17719,
+    "4": 5294
+  },
+  "ten_second_hz_min": 321.8,
+  "ten_second_hz_max": 322.1,
+  "ten_second_hz_stdev": 0.06699917080748086,
+  "init_messages": [
+    "# AD7193 x4 load-cell acquisition",
+    "# nominal sample rate = 100 Hz",
+    "# CSV = raw1,raw2,raw3,raw4",
+    "# NOTE: SPI read bit0 is ignored/cleared as a workaround",
+    "# ADC1 CS=22 ID=0xA3 CONFIG=0x117 MODE=0x80031 -> OK",
+    "# ADC2 CS=17 ID=0xA3 CONFIG=0x117 MODE=0x80031 -> OK",
+    "# ADC3 CS=21 ID=0xA3 CONFIG=0x117 MODE=0x80031 -> OK",
+    "# ADC4 CS=27 ID=0xA3 CONFIG=0x117 MODE=0x80031 -> OK",
+    "# init mask = 0xF"
+  ],
+  "captured_non_sample_lines": []
+}

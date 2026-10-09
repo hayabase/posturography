@@ -1,0 +1,105 @@
+{
+  "fs": 19,
+  "nominal_hz": 252.6315789473684,
+  "requested_s": 45.0,
+  "observed_s": 45.02212620899081,
+  "frames": 11429,
+  "passed": true,
+  "failure_reasons": [],
+  "host_hz": 253.85387559846987,
+  "device_frame_hz": 253.85978392801488,
+  "adc_read_hz": [
+    254.02058206430775,
+    253.8650955240445,
+    254.6425282253606,
+    254.75359003983434
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "device_sent_delta": 11429,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 19,
+    "t_us": 334248695,
+    "frames": 764,
+    "sent": 764,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      764,
+      764,
+      766,
+      767
+    ],
+    "superseded": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 400
+  },
+  "final_stats": {
+    "fs": 19,
+    "t_us": 379268669,
+    "frames": 12193,
+    "sent": 12193,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      12200,
+      12193,
+      12230,
+      12236
+    ],
+    "superseded": [
+      7,
+      0,
+      37,
+      43
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 466
+  },
+  "superseded_measurement": [
+    7,
+    0,
+    35,
+    41
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 3.848,
+    "p50": 3.889,
+    "p99": 4.042,
+    "max": 4.149
+  },
+  "host_interval_ms": {
+    "p50": 5.3439795,
+    "p99": 5.719051909999998,
+    "max": 23.627083
+  },
+  "line_bytes": {
+    "min": 45,
+    "max": 45,
+    "mean": 45
+  },
+  "device_time_us_first": 334250857,
+  "device_time_us_last": 379268289,
+  "baud": 115200,
+  "config": "#CONFIG fs=19 nominal_hz=252.631579 baud=115200 init_mask=15 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_152656/fs_19_152659"
+}

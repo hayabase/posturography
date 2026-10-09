@@ -1,0 +1,94 @@
+{
+  "fs": 24,
+  "nominal_hz": 200.0,
+  "seconds_requested": 10.0,
+  "frames_received": 2013,
+  "passed": true,
+  "failure_reasons": [],
+  "host_hz": 200.95711720157118,
+  "device_hz": 200.96428813954415,
+  "adc_read_hz": [
+    201.10600313401838,
+    201.00614911061518,
+    201.6052732510343,
+    201.7051272744375
+  ],
+  "device_sent_delta": 2013,
+  "received_minus_sent": 0,
+  "tx_drop_delta": 0,
+  "sequence_missing": 0,
+  "crc_errors": 0,
+  "framing_discard_bytes": 0,
+  "status_version_errors": 0,
+  "host_gap_ms_max": 13.857958,
+  "host_gap_ms_p99": 13.698971629999999,
+  "device_interval_ms_max": 5.162,
+  "device_interval_ms_p99": 5.107,
+  "initial_status": {
+    "kind": "status",
+    "version": 1,
+    "init_mask": 15,
+    "fs": 24,
+    "t_us": 7084883,
+    "frames": 603,
+    "sent": 603,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      604,
+      603,
+      605,
+      605
+    ],
+    "superseded": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 278
+  },
+  "final_status": {
+    "kind": "status",
+    "version": 1,
+    "init_mask": 15,
+    "fs": 24,
+    "t_us": 17099502,
+    "frames": 2616,
+    "sent": 2616,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      2618,
+      2616,
+      2624,
+      2625
+    ],
+    "superseded": [
+      1,
+      0,
+      7,
+      8
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 467
+  },
+  "superseded_delta": [
+    1,
+    0,
+    6,
+    7
+  ],
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/binary_connect/results/20260917_233754/fs_24_233756"
+}

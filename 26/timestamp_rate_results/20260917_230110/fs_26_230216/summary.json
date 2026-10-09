@@ -1,0 +1,107 @@
+{
+  "fs": 26,
+  "nominal_hz": 184.6153846153846,
+  "requested_s": 60.0,
+  "observed_s": 60.02770366700133,
+  "frames": 11134,
+  "passed": false,
+  "failure_reasons": [
+    "host gap >100 ms"
+  ],
+  "host_hz": 185.4964484418228,
+  "device_frame_hz": 185.504551346799,
+  "adc_read_hz": [
+    185.627808961876,
+    185.51117718171866,
+    186.09433608250546,
+    186.17764449690358
+  ],
+  "invalid_lines": 0,
+  "unexpected_metadata": [],
+  "tx_drop_measurement": 0,
+  "device_sent_delta": 11134,
+  "received_minus_sent": 0,
+  "initial_stats": {
+    "fs": 26,
+    "t_us": 743438834,
+    "frames": 557,
+    "sent": 557,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      558,
+      557,
+      559,
+      559
+    ],
+    "superseded": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 381
+  },
+  "final_stats": {
+    "fs": 26,
+    "t_us": 803456781,
+    "frames": 11691,
+    "sent": 11691,
+    "tx_drop": 0,
+    "stat_skip": 0,
+    "reads": [
+      11699,
+      11691,
+      11728,
+      11733
+    ],
+    "superseded": [
+      7,
+      0,
+      37,
+      42
+    ],
+    "adc_errors": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_loop_gap_us": 425
+  },
+  "superseded_measurement": [
+    7,
+    0,
+    36,
+    40
+  ],
+  "identical_frames": 0,
+  "identical_fraction": 0.0,
+  "device_interval_ms": {
+    "min": 5.235,
+    "p50": 5.428,
+    "p99": 5.456,
+    "max": 5.534
+  },
+  "host_interval_ms": {
+    "p50": 5.819959,
+    "p99": 7.452977120000007,
+    "max": 128.637417
+  },
+  "line_bytes": {
+    "min": 57,
+    "max": 57,
+    "mean": 57
+  },
+  "device_time_us_first": 743440528,
+  "device_time_us_last": 803455224,
+  "baud": 115200,
+  "config": "#CONFIG fs=26 nominal_hz=184.615385 baud=115200 init_mask=15 wide=1 columns=timestamp_us,raw1,raw2,raw3,raw4",
+  "output": "/Users/gyobu/Documents/weight_measurement/posturography/26/timestamp_rate_results/20260917_230110/fs_26_230216"
+}
